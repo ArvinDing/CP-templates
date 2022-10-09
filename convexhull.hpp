@@ -1,6 +1,7 @@
 #include <vector>
 #include <array>
 #include <cassert>
+
 using namespace std;
 
 vector<array<long long, 2>> p;
