@@ -1,4 +1,5 @@
 #include "template.hpp"
+
 struct Node {
 	int lB, rB;
 	Node *left = nullptr, *right = nullptr;

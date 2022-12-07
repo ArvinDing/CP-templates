@@ -1,4 +1,5 @@
 #include "template.hpp"
+
 const int MAXA = 1e9 + 1;
 ll segT[4 * MAXN];
 void intialize() {

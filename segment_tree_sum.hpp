@@ -1,4 +1,5 @@
 #include "template.hpp"
+
 ll segT[4 * MAXN];
 void update(int idx, int lB, int rB, int x, int val) {
 	if (x < lB || rB < x) {
