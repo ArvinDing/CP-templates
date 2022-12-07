@@ -147,4 +147,4 @@ template<typename T> T pow(T a, long long b) {
 	}
 	return r;
 }
-typedef modnum<MODULO> mint;
+typedef modnum<1000000007> mint;

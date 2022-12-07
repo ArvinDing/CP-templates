@@ -16,7 +16,7 @@ bool merge(int a,int b){
 	int pB=getPar(b);
 	if(pA==pB)
 		return false;
-	if(-par[pA]>par[pB])
+	if(-par[pA]>-par[pB])
 		swap(pA,pB);
 	par[pB]+=par[pA];
 	par[pA]=pB;
