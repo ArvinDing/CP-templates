@@ -1,6 +1,7 @@
 #include <vector>
 #include <array>
 #include <cassert>
+
 using namespace std;
 //terrible precision problems, if using long doubles use kactl
 vector<array<long long, 2>> p;
